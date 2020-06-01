@@ -1,0 +1,54 @@
+2020-05-21 19:42:19,008 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {}->http://localhost:3030
+2020-05-21 19:42:19,019 [DEBUG] org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to localhost:3030
+2020-05-21 19:42:19,038 [DEBUG] org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+2020-05-21 19:42:19,043 [DEBUG] org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+2020-05-21 19:42:19,043 [DEBUG] org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+2020-05-21 19:42:19,044 [DEBUG] org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+2020-05-21 19:42:19,044 [DEBUG] org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+2020-05-21 19:42:19,045 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection  - Sending request: POST /products HTTP/1.1
+2020-05-21 19:42:19,045 [DEBUG] org.apache.http.wire  -  >> "POST /products HTTP/1.1[\r][\n]"
+2020-05-21 19:42:19,046 [DEBUG] org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+2020-05-21 19:42:19,046 [DEBUG] org.apache.http.wire  -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-05-21 19:42:19,046 [DEBUG] org.apache.http.wire  -  >> "Content-Length: 179[\r][\n]"
+2020-05-21 19:42:19,046 [DEBUG] org.apache.http.wire  -  >> "Host: localhost:3030[\r][\n]"
+2020-05-21 19:42:19,046 [DEBUG] org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+2020-05-21 19:42:19,046 [DEBUG] org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_201)[\r][\n]"
+2020-05-21 19:42:19,046 [DEBUG] org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-05-21 19:42:19,046 [DEBUG] org.apache.http.wire  -  >> "[\r][\n]"
+2020-05-21 19:42:19,046 [DEBUG] org.apache.http.headers  - >> POST /products HTTP/1.1
+2020-05-21 19:42:19,047 [DEBUG] org.apache.http.headers  - >> Accept: */*
+2020-05-21 19:42:19,047 [DEBUG] org.apache.http.headers  - >> Content-Type: application/json; charset=UTF-8
+2020-05-21 19:42:19,047 [DEBUG] org.apache.http.headers  - >> Content-Length: 179
+2020-05-21 19:42:19,047 [DEBUG] org.apache.http.headers  - >> Host: localhost:3030
+2020-05-21 19:42:19,047 [DEBUG] org.apache.http.headers  - >> Connection: Keep-Alive
+2020-05-21 19:42:19,047 [DEBUG] org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_201)
+2020-05-21 19:42:19,047 [DEBUG] org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+2020-05-21 19:42:19,047 [DEBUG] org.apache.http.wire  -  >> "{"name":"apple","type":"hari","price":32,"shipping":322,"upc":"234","description":"2342","manufacturer":"Manufactore","model":"V1","url":"http://www.google.com","image":"testimg"}"
+2020-05-21 19:42:19,187 [DEBUG] org.apache.http.wire  -  << "HTTP/1.1 201 Created[\r][\n]"
+2020-05-21 19:42:19,191 [DEBUG] org.apache.http.wire  -  << "X-Powered-By: Express[\r][\n]"
+2020-05-21 19:42:19,192 [DEBUG] org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2020-05-21 19:42:19,192 [DEBUG] org.apache.http.wire  -  << "Allow: GET,POST,PUT,PATCH,DELETE[\r][\n]"
+2020-05-21 19:42:19,192 [DEBUG] org.apache.http.wire  -  << "Vary: Accept, Accept-Encoding[\r][\n]"
+2020-05-21 19:42:19,192 [DEBUG] org.apache.http.wire  -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-05-21 19:42:19,192 [DEBUG] org.apache.http.wire  -  << "Content-Length: 270[\r][\n]"
+2020-05-21 19:42:19,192 [DEBUG] org.apache.http.wire  -  << "ETag: W/"10e-jEOLTVCFVMeXCjnyt/SGzMn9HGs"[\r][\n]"
+2020-05-21 19:42:19,192 [DEBUG] org.apache.http.wire  -  << "Date: Thu, 21 May 2020 14:12:19 GMT[\r][\n]"
+2020-05-21 19:42:19,193 [DEBUG] org.apache.http.wire  -  << "Connection: keep-alive[\r][\n]"
+2020-05-21 19:42:19,193 [DEBUG] org.apache.http.wire  -  << "[\r][\n]"
+2020-05-21 19:42:19,194 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 201 Created
+2020-05-21 19:42:19,194 [DEBUG] org.apache.http.headers  - << HTTP/1.1 201 Created
+2020-05-21 19:42:19,195 [DEBUG] org.apache.http.headers  - << X-Powered-By: Express
+2020-05-21 19:42:19,195 [DEBUG] org.apache.http.headers  - << Access-Control-Allow-Origin: *
+2020-05-21 19:42:19,195 [DEBUG] org.apache.http.headers  - << Allow: GET,POST,PUT,PATCH,DELETE
+2020-05-21 19:42:19,195 [DEBUG] org.apache.http.headers  - << Vary: Accept, Accept-Encoding
+2020-05-21 19:42:19,195 [DEBUG] org.apache.http.headers  - << Content-Type: application/json; charset=utf-8
+2020-05-21 19:42:19,195 [DEBUG] org.apache.http.headers  - << Content-Length: 270
+2020-05-21 19:42:19,195 [DEBUG] org.apache.http.headers  - << ETag: W/"10e-jEOLTVCFVMeXCjnyt/SGzMn9HGs"
+2020-05-21 19:42:19,195 [DEBUG] org.apache.http.headers  - << Date: Thu, 21 May 2020 14:12:19 GMT
+2020-05-21 19:42:19,196 [DEBUG] org.apache.http.headers  - << Connection: keep-alive
+2020-05-21 19:42:19,206 [DEBUG] org.apache.http.impl.client.DefaultHttpClient  - Connection can be kept alive indefinitely
+2020-05-21 19:42:19,247 [DEBUG] io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: application/json; charset=utf-8
+2020-05-21 19:42:19,248 [DEBUG] io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-05-21 19:42:19,291 [DEBUG] org.apache.http.wire  -  << "{"id":9999686,"name":"apple","type":"hari","price":32,"shipping":322,"upc":"234","description":"2342","manufacturer":"Manufactore","model":"V1","url":"http://www.google.com","image":"testimg","updatedAt":"2020-05-21T14:12:19.055Z","createdAt":"2020-05-21T14:12:19.055Z"}"
+2020-05-21 19:42:19,294 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager  - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@120f38e6
+2020-05-21 19:42:19,294 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager  - Connection can be kept alive indefinitely
